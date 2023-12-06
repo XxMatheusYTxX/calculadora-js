@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <main>
+        <div id="corpo">
+            <div id="linha1">
+                <div id="visor">
+                    <span id="mostrar"></span>
+                </div>
+            </div>
+            <div id="linha2">
+                <button class="escuro" onclick="divi()">
+                    <div id="tecla1">/</div>
+                </button>
+                <button class="escuro" onclick="multi()">
+                    <div id="tecla2">*</div>
+                </button>
+                <button class="escuro" onclick="elevado()">
+                    <div id="tecla3">^</div>
+                </button>
+                <button class="escuro" onclick="apagar()">
+                    <div id="tecla4"><img src="img/menos.png" width="100%" alt=""></div>
+                </button>
+            </div>
+            <div id="linha3">
+                <button class="clara" onclick="n7()">
+                    <div id="tecla1">7</div>
+                </button>
+                <button class="clara" onclick="n8()">
+                    <div id="tecla2">8</div>
+                </button>
+                <button class="clara" onclick="n9()">
+                    <div id="tecla3">9</div>
+                </button>
+                <button class="escuro" onclick="ce()">
+                    <div id="tecla4">CE</div>
+                </button>
+            </div>
+            <div id="linha4">
+                <button class="clara" onclick="n4()">
+                    <div id="tecla1">4</div>
+                </button>
+                <button class="clara" onclick="n5()">
+                    <div id="tecla2">5</div>
+                </button>
+                <button class="clara" onclick="n6()">
+                    <div id="tecla3">6</div>
+                </button>
+                <button class="escuro" onclick="menos()">
+                    <div id="tecla4">-</div>
+                </button>
+            </div>
+            <div id="linha5">
+                <button class="clara" onclick="n1()">
+                    <div id="tecla1">1</div>
+                </button>
+                <button class="clara" onclick="n2()">
+                    <div id="tecla2">2</div>
+                </button>
+                <button class="clara" onclick="n3()">
+                    <div id="tecla3">3</div>
+                </button>
+                <button class="escuro"onclick="mais()">
+                    <div id="tecla4">+</div>
+                </button>
+            </div>
+            <div id="linha6">
+                <button class="clara" >
+                    <div id="tecla1"><img src="img/linkedln.png" width="70%" alt=""></div>
+                </button>
+                <button class="clara" onclick="n0()">
+                    <div id="tecla2">0</div>
+                </button>
+                <button class="clara" onclick="virgula()">
+                    <div id="tecla3">,</div>
+                </button>
+                <button class="igual" onclick="igual()">
+                    <div id="tecla4">=</div>
+                </button>
+            </div>
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+
+</html>
